@@ -1,1 +1,1 @@
-# Building-with-Backgrounds-and-Graidents
+# Building-with-Backgrounds-and-Gradients
