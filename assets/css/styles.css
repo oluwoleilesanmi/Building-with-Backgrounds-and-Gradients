@@ -138,15 +138,18 @@ body {
 }
 
 .desktop-tablet-nav > li{
-    width: 103px;
+    width: 23vw;
     height: 30px;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #fff;
     text-align: center;
     list-style-type: none;    
     bottom: 15px;
     line-height: 2;
     border-right: 1px solid #4b4c4c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -167,7 +170,7 @@ body {
     box-shadow: inset 2px 2px #303030, inset 2px -2px #fff;
     border: none;
     border-radius: 9px;
-    width: 90px;
+    width: 7rem;
     height: 20px;  
     background-color: #626262
 }
@@ -178,7 +181,7 @@ body {
 #hero {
   background: url(../images/hero.jpeg) no-repeat center center;
   background-size: cover;
-  height: 50rem;
+  height: 45rem;
   background-position: bottom;
 }
 
