@@ -1,7 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 #hero{
     background: url(../images/hero.jpeg) no-repeat center center;
     background-size: cover;
-    height: 45vh;
+    height: 35.6vh;
     background-position: bottom;
 }
 .main-nav{
@@ -26,4 +32,30 @@
 
 .desktop-tablet-nav{
   display:none;
+}
+
+.value-proposition-question{
+  font-size: 3.5rem;
+  color:#fff;
+  font-weight: 100;
+}
+
+.value-proposition-ipad{
+  font-size: 1rem;
+  line-height: 1.2rem;
+  display:none;
+}
+
+.value-proposition-video{
+  font-size: 2.0rem;
+  color: #fff;
+  font-weight: 100;
+}
+
+.value-proposition-subsection{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 140px;
 }
