@@ -1,12 +1,11 @@
-# Building-with-Backgrounds-and-Graidents
+Description: Build the Apple 2014 home page using Backgrounds-and-Graidents.
 
-This is project building backgrounds and gradients in the curriculum at Microverse
-The goal was to recreate the 2014 apple home page
-The page is responsive
-The project was completed using simple html and css
+Project was developed using the pair programming.
+Project was programmed in plain css and html.
+Project pages are build to be responsive to different screen sizes.
 
-####Assignment link: https://web.archive.org/web/20140301004610/http://www.apple.com/
+Link to apple 2014 apple home page:https://web.archive.org/web/20140301004610/http://www.apple.com/
 
-Authors:
-Luiz Melo
-Oluwole
+Link to project details: https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients
+
+kindly fork, try this project out as you see fit.

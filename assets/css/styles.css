@@ -5,7 +5,7 @@ body {
 }
 
 #hero {
-  background: url(../images/hero.jpeg) no-repeat center center;
+  background: url("../images/hero.jpeg") no-repeat center center;
   background-size: cover;
   height: 55vh;
   background-position: bottom;
@@ -17,6 +17,12 @@ body {
 .mobile_hamburger_icon .fa {
   font-size: 2.5rem;
   color: #626262;
+}
+
+.mobile_hamburger_icon i {
+  position: absolute;
+  left: 1%;
+  top: 1%;
 }
 
 .mobile-apple-logo {
@@ -50,6 +56,7 @@ body {
 
 .value-proposition-video {
   font-size: 2rem;
+  text-align: center;
   color: #fff;
   font-weight: 100;
   font-family: "Lato", sans-serif;
@@ -208,8 +215,4 @@ body {
   .online-store-subsection .online-stores {
     width: 38vw;
   }
-  /* .navigation-bar-subsection {
-    display: flex;
-    align-items: center;
-  } */
 }
