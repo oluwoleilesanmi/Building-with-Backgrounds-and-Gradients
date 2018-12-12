@@ -9,6 +9,7 @@ body {
   background-size: cover;
   height: 55vh;
   background-position: bottom;
+  background-color: #a5c0d5;
 }
 .main-nav {
   padding: 0.5rem;
@@ -173,8 +174,6 @@ body {
   /* end of nav */
   /* hero */
   #hero {
-    background: url("../images/hero.jpeg") no-repeat center center;
-    background-size: cover;
     height: 720px;
     background-position: bottom;
   }
