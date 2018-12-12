@@ -173,7 +173,7 @@ body {
   /* end of nav */
   /* hero */
   #hero {
-    background: url(../images/hero.jpeg) no-repeat center center;
+    background: url("/hero.jpeg") no-repeat center center;
     background-size: cover;
     height: 45rem;
     background-position: bottom;
