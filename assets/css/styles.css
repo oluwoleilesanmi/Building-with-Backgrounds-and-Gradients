@@ -5,7 +5,7 @@ body {
 }
 
 #hero {
-  background: url("../images/hero.jpeg") no-repeat center center;
+  background: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") no-repeat center center;
   background-size: cover;
   height: 55vh;
   background-position: bottom;
@@ -174,7 +174,7 @@ body {
   /* end of nav */
   /* hero */
   #hero {
-    background: url("../images/hero.jpeg") no-repeat center center;
+    background: url("https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg") no-repeat center center;
     background-size: cover;
     height: 720px;
     background-position: bottom;
