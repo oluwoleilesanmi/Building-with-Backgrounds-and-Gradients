@@ -15,14 +15,14 @@ body {
 }
 
 .mobile_hamburger_icon .fa {
-  font-size: 2.5rem;
-  color: #626262;
+  font-size: 1.9rem;
+  color: #111010;
 }
 
 .mobile_hamburger_icon i {
   position: absolute;
-  left: 1%;
-  top: 1%;
+  left: 2%;
+  top: 2%;
 }
 
 .mobile-apple-logo {
@@ -63,11 +63,8 @@ body {
 }
 
 .value-proposition-subsection {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 140px;
+  text-align: center;
+  margin-top: 13vh;
 }
 
 #products {
@@ -91,27 +88,26 @@ body {
 }
 
 /* footer */
-
-.secondary-nav {
-  display: flex;
-  width: 66vw;
-  margin: auto;
-}
-.secondary-nav > li {
-  margin-right: 0.4rem;
-  margin-left: 0.4rem;
-}
 .secondary-nav > li > a {
   text-decoration: none;
 }
 
-.online-store-subsection,
 .navigation-bar-subsection {
   text-align: center;
   line-height: 1.5;
 }
 
-@media screen and (min-width: 768px) {
+.online-store-subsection,
+.dummy-content-subsection {
+  display: none;
+}
+
+.copyright-subsection {
+  text-align: center;
+  margin-top: 6px;
+}
+
+@media only screen and (min-width: 768px) {
   /* nav bar */
 
   .desktop-tablet-nav,
@@ -192,8 +188,7 @@ body {
   }
   .secondary-nav {
     display: flex;
-    margin: auto;
-    justify-content: center;
+    font-size: 0.9rem;
   }
   .value-proposition-ipad {
     font-size: 2rem;
@@ -201,18 +196,47 @@ body {
     font-family: "Lato", sans-serif;
     color: #fff;
     font-weight: 100;
-    width: 60vw;
+    width: 80%;
     text-align: center;
     line-height: 1.3;
   }
   .value-proposition-subsection {
+    text-align: center;
+    width: 90%;
     margin-top: 3rem;
+    margin-left: 13%;
+  }
+  .value-proposition-video {
+    text-align: center;
+    width: 80%;
+    font-size: 1.9rem;
+    padding-top: 3px;
+  }
+  .value-proposition-question {
+    text-align: center;
+    width: 80%;
+  }
+  .copyright-subsection {
+    font-size: 0.9rem;
   }
   #footer-section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
   }
-  .online-store-subsection .online-stores {
-    width: 38vw;
+  .div-for-flex-styling-1 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .div-for-flex-styling-2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+  .online-store-subsection {
+    display: block;
+  }
+  .dummy-content-subsection {
+    display: block;
+    width: 496.5px;
+    visibility: hidden;
   }
 }
