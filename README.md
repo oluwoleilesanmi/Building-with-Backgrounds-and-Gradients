@@ -9,3 +9,4 @@ Link to apple 2014 apple home page:https://web.archive.org/web/20140301004610/ht
 Link to project details: https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients
 
 kindly fork, try this project out as you see fit.
+
